@@ -19,5 +19,4 @@ for i in range(num_repeat):
         if ind != position-1:continue
         url = tag.get('href')
         name.append(tag.text)
-        print(name[-1])
 print(' '.join(name))
